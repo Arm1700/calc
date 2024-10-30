@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Wet+Paint&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="screen">
+        <div class="actions">
+            <p class="action"></p>
+            <p class="output">0</p>
+        </div>
+        <div class="symbols">
+            <div class="string">
+                <button class="symbol delete">⌫</button>
+                <button class="symbol clear" onclick="clearAll()">Clear</button>
+                <button class="symbol divide">/</button>
+            </div>
+            <div class="string">
+                <button class="symbol seven">7</button>
+                <button class="symbol eight">8</button>
+                <button class="symbol nine">9</button>
+                <button class="symbol multi">*</button>
+            </div>
+            <div class="string">
+                <button class="symbol four">4</button>
+                <button class="symbol five">5</button>
+                <button class="symbol six">6</button>
+                <button class="symbol minus">-</button>
+            </div>
+            <div class="string">
+                <button class="symbol one">1</button>
+                <button class="symbol two">2</button>
+                <button class="symbol three">3</button>
+                <button class="symbol plus">+</button>
+            </div>
+            <div class="string">
+                <button class="symbol zero">0</button>
+                <button class="symbol equal">=</button>
+                <button class="symbol dot">.</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+
+</html>
